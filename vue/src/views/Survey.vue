@@ -1,11 +1,7 @@
 <template>
-    <div>
-        <h3>do manh hung</h3>
-    </div>
+    <pageComponent title="day la title survey">survey</pageComponent>
 </template>
 
-<script>
-export default {
-    name:"Survey"
-}
+<script setup>
+import pageComponent from "../components/pageComponent.vue"
 </script>

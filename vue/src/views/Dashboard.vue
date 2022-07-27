@@ -1,11 +1,7 @@
 <template>
-    <div>
-        <h1>Dashboard</h1>
-    </div>
+    <pageComponent title="day la title dashboard">Dashboard page</pageComponent>
 </template>
 
-<script>
-export default {
-    name:"Dashboard"
-}
+<script setup>
+import pageComponent from "../components/pageComponent.vue"
 </script>
